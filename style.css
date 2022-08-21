@@ -1,22 +1,45 @@
 
-h1{
+#title{
+    /* padding-left: 17cm; */
+    color: white;
     font-size: 60px;
+    font-weight: bold;
     text-align: center;
-    background-color: rgb(53, 53, 53);
+    
+  }
+  .navbar {
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+    justify-content: center;
+  }
+  
+  
+  #city-form{
+    margin-top: 10px;
+   
+  }
+  
+  #cities-temp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  
+  }
+  .main-row {
+    margin-left: 20px;
+  }
+  .back{
+    background-color: dodgerblue;
     color: white;
-    padding: 20px;
-}
-
-.forecast {
-    font-size: 20px;
-}
-
-.col-2 {
-    background-color: rgb(34, 145, 236);
-    color: white;
-}
-
-#search-input {
-    width: 66%;
-    float: left;
-}
+  }
+  .back img {
+    display: inline-block;
+  }
+  .h2-style {
+    margin-top: 20px;
+  }
+  
+  .badge {
+    margin-right: 20px;
+    height: 3cm;
+  }
